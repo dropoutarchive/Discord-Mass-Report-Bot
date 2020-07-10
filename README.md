@@ -2,6 +2,6 @@
   -  Discord Report Bot, Just Re-Made The "Admin Report" Feature From Asari's Report Bot, Enjoy <3 
   
 # SKIDS
-No Skids yet -> Dont Fucking Skid My Shit
+Username: synical#0001 | User ID: 721329524981235733 | Just Re-Named It | Proof: [IMAGE](https://media.discordapp.net/attachments/730897868415827988/731009198996848734/gvzy79wZA1bqQAAAABJRU5ErkJggg.png)
 
 #Enjoy <3 From Dropout
