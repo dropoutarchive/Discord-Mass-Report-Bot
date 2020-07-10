@@ -4,4 +4,4 @@
 # SKIDS
 Username: synical#0001 | User ID: 721329524981235733 | Just Re-Named It | Proof: [IMAGE](https://media.discordapp.net/attachments/730897868415827988/731009198996848734/gvzy79wZA1bqQAAAABJRU5ErkJggg.png)
 
-#Enjoy <3 From Dropout
+# Enjoy <3 From Dropout
