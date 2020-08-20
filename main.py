@@ -14,7 +14,7 @@ from colorama import Fore, Style
 from threading import Thread
 from sys import stdout
 from requests import Session
-from time import strftime, gmtime, sleep
+from time import strftime, gmtime
 
 sent = 0
 session = Session()
@@ -52,7 +52,7 @@ token = input(f"{b+Fore.BLUE} > Token{Fore.RESET}: ")
 headers = {'Authorization': token, 'Content-Type':  'application/json'}  
 r = requests.get('https://discord.com/api/v6/users/@me', headers=headers)
 if r.status_code == 200:
-        time.sleep(0.1)
+        pass
 else:
         print(f"{b+Fore.RED} > Invalid Token")
         time.sleep(5)
