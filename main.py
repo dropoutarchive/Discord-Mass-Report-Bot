@@ -55,7 +55,7 @@ if r.status_code == 200:
         pass
 else:
         print(f"{b+Fore.RED} > Invalid Token")
-        time.sleep(5)
+        input()
 guild_id1 = input(f"{b+Fore.BLUE} > Server ID{Fore.RESET}: ")
 channel_id1 = input(f"{b+Fore.BLUE} > Channel ID{Fore.RESET}: ")
 message_id1 = input(f"{b+Fore.BLUE} > Message ID{Fore.RESET}: ")
