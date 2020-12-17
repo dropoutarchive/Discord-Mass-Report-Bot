@@ -15,14 +15,23 @@ from threading import Thread
 from sys import stdout
 from requests import Session
 from time import strftime, gmtime
+from sys import platform
 
+
+if platform == "linux" or platform == "linux2":
+    def clear:
+        os.system(clear -x)
+elif platform == "darwin":
+    def clear:
+        os.system(clear)
+elif platform == "win32":
+    def clear:
+        os.system(cls)
 sent = 0
 session = Session()
 b = Style.BRIGHT
-os = os.system
-os('cls')
 
-ctypes.windll.kernel32.SetConsoleTitleW(f"[REPORT BOT] By Dropout | Dont Skid Me ;) ")
+clear
 
 print(f"""
 
@@ -81,7 +90,6 @@ def Main():
     r = requests.post('https://discord.com/api/v6/report', headers=headers, json=payload)
     if r.status_code == 201:
       print(f"{Fore.GREEN} > Sent Report {b+Fore.BLUE}::{Fore.GREEN} ID {message_id1}")
-      ctypes.windll.kernel32.SetConsoleTitleW(f"[REPORT BOT] By Dropout | Sent: %s" % sent)
       sent += 1
       
     elif r.status_code == 401:
